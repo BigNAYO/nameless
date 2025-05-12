@@ -12,4 +12,12 @@ CREATE TABLE IF NOT EXISTS Department(
     Location  vanchar(50
     );
     
-)
+    create project(
+        projectID INT PRIMARY KEY,
+        Projectname vanchar(50),
+        startdate date,
+        enddDATE DATE,
+        BUDGET DECIMAL(15, 2)
+    );
+
+    
