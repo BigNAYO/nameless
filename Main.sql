@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS Department(
     DepartmentName VARCHAR(50),
     Location  vanchar(50
     );
-    )
+    
 )
